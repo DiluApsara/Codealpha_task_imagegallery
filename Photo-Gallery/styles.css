@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #d85798;
+}
+
+
+h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #0c0006;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.category {
+  background-color: rgb(243, 241, 242);
+  border: 1px solid #070000;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 220px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.category h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #c82333;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.see-more {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.see-more:hover {
+  background-color: #0056b3;
+}
+
+#controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#controls button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#controls button:hover {
+  background-color: #218838;
+}
+
+#delete-image {
+  background-color: #dc3545;
+}
+
+#delete-image:hover {
+  background-color: #c82333;
+}
+.image-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.download-btn {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: rgba(224, 9, 9, 0.7);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.8em;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
